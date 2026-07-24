@@ -1,0 +1,13 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 6
+names: ['L1', 'L2', 'L3', 'L4', 'L5', 'S1']
+
+roboflow:
+  workspace: project-h1lhu
+  project: backspine
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project-h1lhu/backspine/dataset/3
